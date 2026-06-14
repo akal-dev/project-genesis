@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://c811p3s4fhgp6"]
+
+[ext_resource type="Texture2D" uid="uid://ba58mdj7t6ijx" path="res://icon.svg" id="1_mehiu"]
+[ext_resource type="Script" uid="uid://dm7b6jtnf86po" path="res://MySprite2d.cs" id="2_lt4yx"]
+
+[node name="Sprite2D" type="Sprite2D" unique_id=1020527588]
+position = Vector2(458, 284)
+texture = ExtResource("1_mehiu")
+script = ExtResource("2_lt4yx")
+
+[node name="Button" type="Button" parent="." unique_id=37271156]
+offset_left = 198.0
+offset_top = -56.0
+offset_right = 408.0
+offset_bottom = 61.0
+text = "Enable Motion"
+
+[connection signal="pressed" from="Button" to="." method="OnButtonPressed"]
