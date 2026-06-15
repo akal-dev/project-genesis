@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://b46ea4bdmkm23"]
+
+[ext_resource type="Script" uid="uid://csh4l0jg3nwbb" path="res://Player.cs" id="1_xhfnw"]
+
+[node name="Node2D" type="Node2D" unique_id=2036029813]
+script = ExtResource("1_xhfnw")
+
+[node name="Polygon2D" type="Polygon2D" parent="." unique_id=1973136326]
+position = Vector2(-2, -41)
+color = Color(0, 1, 0, 1)
+offset = Vector2(-30, 0)
+polygon = PackedVector2Array(31.999939, 0, 0, 63.99999, 32, 56, 64, 64)
+uv = PackedVector2Array(31.999939, 0, 0, 63.99999, 32.00003, 64, 56.00003, 64)
